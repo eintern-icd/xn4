@@ -1,5 +1,10 @@
 void setup() {
   Serial.begin(115200);
-  delay(2000); // Wait 2 seconds for the serial monitor to connect
+  delay(2000); 
+  
+}
+
+void loop() {
   Serial.println("Hello World!");
+  delay(2000);
 }
